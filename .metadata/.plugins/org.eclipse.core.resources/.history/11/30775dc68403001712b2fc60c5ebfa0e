@@ -1,0 +1,17 @@
+package com.fastcode.student.service;
+
+import java.util.Hashtable;
+
+import com.fastcode.student.model.Student;
+
+public abstract class StudentInfoBaseService {
+
+	
+
+	public StudentInfoBaseService() {
+		super();
+	}
+
+	public abstract Student getStudent(String reference);
+	public abstract Hashtable<String, Student> getAll();
+}

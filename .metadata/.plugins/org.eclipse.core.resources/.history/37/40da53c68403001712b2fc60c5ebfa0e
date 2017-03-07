@@ -1,0 +1,30 @@
+package com.fastcode.student.service;
+
+import java.util.Hashtable;
+
+import org.springframework.stereotype.Service;
+
+import com.fastcode.student.model.Student;
+
+//@Service
+public class StudentInfoDBService extends StudentInfoBaseService {
+
+	
+	
+	public StudentInfoDBService() {
+		super();
+	}
+
+	@Override
+	public Student getStudent(String reference) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Hashtable<String, Student> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.fastcode.student.controller;
+
+public class StudentInfoController {
+
+}

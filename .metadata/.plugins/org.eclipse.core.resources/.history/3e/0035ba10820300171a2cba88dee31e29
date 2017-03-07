@@ -1,0 +1,5 @@
+package com.fastcode.student.service;
+
+public abstract class StudentInfoBaseService {
+
+}

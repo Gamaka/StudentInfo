@@ -1,0 +1,5 @@
+package com.fastcode.student.model;
+
+public class Student {
+
+}
